@@ -7,7 +7,7 @@ export const FormComponent = () => {
     email: "",
     password: "",
   };
-  // luego de realizar la logica y vemos que funciona se comienza a migrar al custom Hook
+  // Luego de realizar la lógica y vemos que funciona se comienza a migrar al custom Hook
 
   const { formState, onInputChange } = useForm(initialForm);
 
