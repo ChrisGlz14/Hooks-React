@@ -13,6 +13,7 @@ function ContadorComponent() {
       <button className="btn btn-primary" onClick={()=> increment(1)}>sumar</button>
       <button className="btn btn-danger m-4" onClick={()=> reset()}>resetear</button>
       <button className="btn btn-primary" onClick={()=> decrement(4, false)}>Restar</button>
+      <hr />
     </>
   )
 }
