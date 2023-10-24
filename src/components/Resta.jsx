@@ -23,7 +23,6 @@ export const Resta = () => {
     <>
       <input type="text" onChange={onNum1Change} value={num1} />
       <input type="text" onChange={onNum2Change} value={num2} />
-      <hr />
       <button onClick={resta}>Restar</button>
       <hr />
       <div>Resultado:{resultado} </div>

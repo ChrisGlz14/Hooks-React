@@ -5,6 +5,7 @@ import FormComponent from "./components/FormComponent";
 import UserComponent from "./components/UserComponent";
 import { Suma } from "./components/Suma";
 import { Resta } from "./components/Resta";
+import { Multiplicacion } from "./components/Multiplicacion";
 
 function App() {
  
@@ -19,6 +20,8 @@ function App() {
       <Suma />
       <hr />
       <Resta></Resta>
+      <hr />
+      <Multiplicacion/>
     </>
   );
 }
