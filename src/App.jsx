@@ -3,6 +3,8 @@ import "./App.css";
 import ContadorComponent from "./components/ContadorComponent";
 import FormComponent from "./components/FormComponent";
 import UserComponent from "./components/UserComponent";
+import { Suma } from "./components/Suma";
+import { Resta } from "./components/Resta";
 
 function App() {
  
@@ -13,6 +15,10 @@ function App() {
       <FormComponent />
       <hr />
       <UserComponent />
+      <hr />
+      <Suma />
+      <hr />
+      <Resta></Resta>
     </>
   );
 }
