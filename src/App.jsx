@@ -17,11 +17,11 @@ function App() {
       <hr />
       <UserComponent />
       <hr />
-      <Suma />
+      <Suma className="operations"></Suma>
       <hr />
-      <Resta></Resta>
+      <Resta className="operations"></Resta>
       <hr />
-      <Multiplicacion/>
+      <Multiplicacion className="operations"></Multiplicacion>
     </>
   );
 }

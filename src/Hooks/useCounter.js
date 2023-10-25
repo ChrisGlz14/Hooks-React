@@ -10,7 +10,7 @@ export const useCounter = (valorInicial = 0) => {
   const reset = () => {
     setCounter(0);
   };
-  const decrement = (valor = 1, negativo) => {
+  const decrement = (valor = 1, negativo = true) => {
     if (!negativo && counter - valor < 0) {
       setCounter(0);
       return;

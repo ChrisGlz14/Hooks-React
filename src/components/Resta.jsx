@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from "react";
+import '/src/styles/operaciones.css'
 
 export const Resta = () => {
   const [num1, setNum1] = useState("");
@@ -21,11 +22,11 @@ export const Resta = () => {
 
   return (
     <>
-      <h2>Resta</h2>
-      <input type="text" onChange={onNum1Change} value={num1} />
-      <input type="text" onChange={onNum2Change} value={num2} />
-      <button onClick={resta}>Restar</button>
-      <div>Resultado:{resultado} </div>
+      <h2 className="subtitulo-op">Resta</h2>
+      <input className="input-num" type="text" onChange={onNum1Change} value={num1} />
+      <input className="input-num" type="text" onChange={onNum2Change} value={num2} />
+      <button className="button-operations" onClick={resta}>Restar</button>
+      <div className="resultado">Resultado de la resta: {resultado} </div>
     </>
   );
 };

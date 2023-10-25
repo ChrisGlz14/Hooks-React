@@ -1,5 +1,5 @@
 import React from 'react';
-
+import '/src/styles/operaciones.css'
 import {useState} from 'react'
 
 
@@ -25,10 +25,11 @@ export const Multiplicacion = () => {
   
     return (
     <>
-    <input type="number" onChange={num1OnChange} value={num1}/>
-    <input type="number" onChange={num2OnChange} value={num2}/>  
-    <button onClick={producto}>Multiplicar </button>
-    <div>Resultado : {resultado} </div>
+    <h2 className="subtitulo-op">Multiplicacion</h2>
+    <input className="input-num" type="number" onChange={num1OnChange} value={num1}/>
+    <input className="input-num" type="number" onChange={num2OnChange} value={num2}/>  
+    <button className='button-operations' onClick={producto}>Multiplicar</button>
+    <div className="resultado">Resultado de la multiplicacion: {resultado} </div>
     
     </>
   )
