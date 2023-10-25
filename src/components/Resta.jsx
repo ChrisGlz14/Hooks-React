@@ -21,10 +21,10 @@ export const Resta = () => {
 
   return (
     <>
+      <h2>Resta</h2>
       <input type="text" onChange={onNum1Change} value={num1} />
       <input type="text" onChange={onNum2Change} value={num2} />
       <button onClick={resta}>Restar</button>
-      <hr />
       <div>Resultado:{resultado} </div>
     </>
   );

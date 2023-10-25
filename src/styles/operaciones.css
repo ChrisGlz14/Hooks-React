@@ -1,0 +1,28 @@
+.subtitulo-op {
+    text-align: center;
+}
+
+.input-num {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 55px;
+    text-align: center;
+}
+
+
+.button-operations {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.resultado {
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+

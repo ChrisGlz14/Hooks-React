@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import '/src/styles/operaciones.css'
 
 export const Suma = () => {
   const [num1, setNum1] = useState('');
@@ -19,20 +20,25 @@ export const Suma = () => {
 
   return (
     <>
+    <h2 className="subtitulo-op">Suma</h2>
       <input
+        className="input-num"
         type="number"
         value={num1}
         onChange={onNum1Change}
       />
       <input
+        className="input-num"
         type="number"
         value={num2}
         onChange={onNum2Change}
       />
-      <button onClick={sumar}>Sumar</button>
-      <div>Resultado: {resultado}</div>
+      <button className="button-operations" onClick={sumar}>Sumar</button>
+      <div className="resultado">Resultado de la suma: {resultado}</div>
     </>
   );
 };
+
+export default Suma
 
 
