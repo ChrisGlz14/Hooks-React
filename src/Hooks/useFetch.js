@@ -10,7 +10,7 @@ export const useFetch = (url) => {
         errors : null
     })
 
-    //Aqui llamamos nuestro custom Hook, desestructurando lo que importaremos (data, isLoading,errors)
+    //Aqui llamamos nuestro custom Hook, desestructurando lo que importaremos (data, isLoading,errors es lo que usaremos)
     const {data, isLoading, errors} = state 
 
 

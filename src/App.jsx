@@ -6,6 +6,8 @@ import UserComponent from "./components/UserComponent";
 import { Suma } from "./components/Suma";
 import { Resta } from "./components/Resta";
 import { Multiplicacion } from "./components/Multiplicacion";
+import { CalculosPesados } from "./components/CalculosPesados";
+import { CallBackComponent } from "./components/CallBackComponent";
 
 function App() {
  
@@ -17,11 +19,15 @@ function App() {
       <hr />
       <UserComponent />
       <hr />
+      <CalculosPesados/>  
+      <hr />
       <Suma className="operations"></Suma>
       <hr />
       <Resta className="operations"></Resta>
       <hr />
       <Multiplicacion className="operations"></Multiplicacion>
+      <hr />
+      <CallBackComponent/>
     </>
   );
 }

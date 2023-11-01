@@ -18,6 +18,7 @@ export const Suma = () => {
     setResultado(num1 + num2);
   };
 
+
   return (
     <>
     <h2 className="subtitulo-op">Suma</h2>

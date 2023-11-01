@@ -20,6 +20,9 @@ export const Resta = () => {
     setResultado(num1 - num2);
   };
 
+
+  
+
   return (
     <>
       <h2 className="subtitulo-op">Resta</h2>
