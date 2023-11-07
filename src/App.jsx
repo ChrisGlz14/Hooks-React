@@ -8,6 +8,7 @@ import { Resta } from "./components/Resta";
 import { Multiplicacion } from "./components/Multiplicacion";
 import { CalculosPesados } from "./components/CalculosPesados";
 import { CallBackComponent } from "./components/CallBackComponent";
+import { ListaTareasReduce } from "./components/ListaTareasReduce";
 
 function App() {
  
@@ -28,6 +29,8 @@ function App() {
       <Multiplicacion className="operations"></Multiplicacion>
       <hr />
       <CallBackComponent/>
+      <hr />
+      <ListaTareasReduce/>
     </>
   );
 }
